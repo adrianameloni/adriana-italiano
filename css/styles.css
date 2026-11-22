@@ -180,26 +180,21 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .contact-small-note { margin-top: 34px; display: flex; align-items: flex-start; gap: 11px; color: #d1e1d6; font-size: 12px; }
 .contact-small-note svg { width: 20px; height: 20px; flex-shrink: 0; color: #e6b09b; }
 .contact-panel { background: var(--paper); border-radius: 13px; padding: clamp(25px, 3.7vw, 45px); box-shadow: 0 30px 65px rgb(0 0 0 / 11%); }
-.contact-panel h3 { margin: 0 0 5px; font-size: 23px; color: var(--green-dark); font-weight: 800; }
-.contact-panel .panel-description { color: #748276; font-size: 12px; margin: 0 0 23px; }
-.form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
-.field { display: flex; flex-direction: column; gap: 6px; }
-.field.full { grid-column: 1 / -1; }
-.field label { font-size: 11px; color: #4f5e53; font-weight: 750; }
-.field input, .field select, .field textarea { display: block; background: white; border: 1px solid #dbdfd8; border-radius: 7px; width: 100%; padding: 11px 13px; color: var(--green-dark); font-size: 13px; line-height: 1.5; outline-offset: 0; }
-.field textarea { resize: vertical; min-height: 88px; }
-.field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid #adc7af; border-color: var(--green); }
-.field input::placeholder, .field textarea::placeholder { color: #9ba89e; }
-.form-submit { margin-top: 20px; width: 100%; }
-.form-fineprint { font-size: 10px; color: #7e8a7f; margin: 11px 0 0; line-height: 1.7; }
-.contact-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
-.contact-links a { display: inline-flex; align-items: center; gap: 7px; color: var(--green); font-size: 12px; font-weight: 750; text-decoration: underline; text-underline-offset: 3px; }
-.contact-links svg { width: 16px; height: 16px; }
-.contact-pending { text-align: center; padding: 20px 8px 6px; }
-.pending-icon { width: 65px; height: 65px; margin: 0 auto 21px; border-radius: 50%; display: grid; place-items: center; background: var(--green-soft); color: var(--green); }
-.pending-icon svg { width: 30px; height: 30px; }
-.contact-pending p { max-width: 300px; margin: 0 auto; color: #718075; font-size: 13px; line-height: 1.9; }
-.contact-pending h3 { font-size: 21px; margin-bottom: 10px; }
+.contact-panel h3 { margin: 0 0 7px; font-size: 23px; color: var(--green-dark); font-weight: 800; }
+.contact-panel .panel-description { color: #66796f; font-size: 13px; line-height: 1.8; margin: 0 0 22px; }
+.contact-methods { display: grid; gap: 16px; }
+.contact-method { background: #fff; border: 1px solid #e5e8df; border-radius: 11px; padding: 21px 22px; }
+.contact-method-top { display: flex; align-items: center; gap: 13px; min-width: 0; }
+.contact-method-icon { flex: 0 0 45px; width: 45px; height: 45px; display: grid; place-items: center; color: var(--green); background: var(--green-soft); border-radius: 50%; }
+.contact-method-icon svg { width: 23px; height: 23px; }
+.contact-method-details { min-width: 0; }
+.contact-method h4 { margin: 0 0 2px; color: #546a5b; font-size: 12px; font-weight: 800; }
+.contact-method-detail { display: inline-block; max-width: 100%; color: var(--green-dark); font-size: clamp(12px, 1.2vw, 15px); line-height: 1.5; font-weight: 800; overflow-wrap: anywhere; unicode-bidi: isolate; }
+.contact-method-detail:hover { text-decoration: underline; text-underline-offset: 3px; }
+.contact-method p { margin: 13px 0 15px; color: #697b70; font-size: 12px; line-height: 1.8; }
+.contact-method p strong { color: var(--terracotta-dark); font-weight: 800; }
+.contact-method-action { min-height: 44px; padding: 10px 16px; font-size: 12px; }
+.contact-method-action svg { width: 16px; height: 16px; }
 [hidden] { display: none !important; }
 
 /* Footer */
@@ -304,6 +299,7 @@ html[lang='it'] .lesson-card h3 { font-size: 17px; }
   .contact { padding-block: 74px; }
   .contact-grid { gap: 29px; }
   .contact-panel { padding: 25px 20px; }
+  .contact-method { padding: 18px 15px; }
   .contact .section-title { font-size: 37px; }
   .footer-inner { align-items: flex-start; flex-direction: column; gap: 23px; }
 }
@@ -313,7 +309,7 @@ html[lang='it'] .lesson-card h3 { font-size: 17px; }
   .language-switch { padding-inline-start: 9px; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .hero-actions .button { width: 100%; }
-  .form-grid, .credential-list { grid-template-columns: 1fr; }
+  .credential-list { grid-template-columns: 1fr; }
   .art-stamp { inset-inline-start: 0; }
 }
 @media (prefers-reduced-motion: reduce) {

@@ -15,7 +15,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="../css/styles.css">
-  <script src="../js/site-config.js" defer></script>
   <script src="../js/main.js" defer></script>
 </head>
 <body>
@@ -170,32 +169,35 @@
         <div class="contact-copy">
           <span class="eyebrow">Il primo passo è qui</span>
           <h2 class="section-title" id="contact-heading">Pronto a parlare<br>italiano?</h2>
-          <p>Raccontami perché vuoi imparare l'italiano e da quale livello parti. Sarò felice di conoscerti e di valutare insieme il percorso più adatto a te.</p>
-          <div class="contact-small-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-5.4A8.5 8.5 0 1 1 21 11.5Z"/></svg><span>Non è necessario sapere già quale corso scegliere: ne parliamo insieme.</span></div>
+          <p>Hai domande sulle lezioni, vuoi capire qual è il livello giusto per te oppure desideri prenotare una lezione? Scrivimi via email o WhatsApp: sarò felice di aiutarti.</p>
+          <div class="contact-small-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-5.4A8.5 8.5 0 1 1 21 11.5Z"/></svg><span>Non è necessario sapere già quale corso scegliere: ne parliamo insieme.</span></div>
         </div>
         <div class="contact-panel">
-          <div data-contact-ready hidden>
-            <h3>Conosciamoci!</h3>
-            <p class="panel-description">Bastano poche informazioni per preparare il tuo messaggio.</p>
-            <form data-contact-form>
-              <div class="form-grid">
-                <div class="field"><label for="student-name">Nome e cognome *</label><input id="student-name" name="studentName" type="text" autocomplete="name" placeholder="Il tuo nome" required maxlength="100"></div>
-                <div class="field"><label for="student-contact">Telefono o email *</label><input id="student-contact" name="studentContact" type="text" autocomplete="email" placeholder="Come posso ricontattarti?" required maxlength="160"></div>
-                <div class="field full"><label for="student-interest">Che cosa ti interessa?</label><select id="student-interest" name="studentInterest"><option>Italiano per tutti i livelli</option><option>Preparazione alla maturità (Bagrut)</option><option>Esame B1 per la cittadinanza</option><option>Conversazione, cultura e letteratura</option><option>Non so ancora</option></select></div>
-                <div class="field full"><label for="student-message">Vuoi aggiungere qualcosa?</label><textarea id="student-message" name="studentMessage" placeholder="Il tuo livello, i tuoi obiettivi o una domanda..." maxlength="1500"></textarea></div>
+          <h3>Restiamo in contatto!</h3>
+          <p class="panel-description">Per qualsiasi domanda, per scegliere il livello giusto o semplicemente per prenotare una lezione, puoi contattarmi direttamente.</p>
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-method-top">
+                <span class="contact-method-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+                <div class="contact-method-details">
+                  <h4>Email</h4>
+                  <a class="contact-method-detail" href="mailto:adriana.meloni59@gmail.com" dir="ltr">adriana.meloni59@gmail.com</a>
+                </div>
               </div>
-              <button class="button button-primary form-submit" type="submit">Prepara il messaggio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></button>
-              <p class="form-fineprint">Il modulo apre un messaggio su WhatsApp o nel tuo programma email. Il messaggio non viene inviato automaticamente e il sito non conserva i dati inseriti.</p>
-            </form>
-            <div class="contact-links">
-              <a data-whatsapp-link href="#contact" target="_blank" rel="noopener noreferrer" hidden>Scrivimi su WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 12h12m-5-5 5 5-5 5"/></svg></a>
-              <a data-email-link href="#contact" hidden>Mandami un'email <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg></a>
+              <p>Puoi scrivermi per qualsiasi domanda, per individuare insieme il livello più adatto a te o semplicemente per prenotare una lezione.</p>
+              <a class="button button-primary contact-method-action" href="mailto:adriana.meloni59@gmail.com">Scrivimi un'email <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></a>
             </div>
-          </div>
-          <div class="contact-pending" data-contact-pending>
-            <div class="pending-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg></div>
-            <h3>Sarà un piacere conoscerti</h3>
-            <p>I recapiti per contattarmi saranno disponibili qui a breve. Torna a visitare questa pagina!</p>
+            <div class="contact-method">
+              <div class="contact-method-top">
+                <span class="contact-method-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-5.4A8.5 8.5 0 1 1 21 11.5Z"/></svg></span>
+                <div class="contact-method-details">
+                  <h4>WhatsApp e telefono</h4>
+                  <a class="contact-method-detail" href="tel:+972544913379" dir="ltr" aria-label="Chiama Adriana al telefono">+972 54-491-3379</a>
+                </div>
+              </div>
+              <p>Puoi scrivermi su WhatsApp per fare domande, capire quale livello scegliere oppure prenotare una lezione. <strong>Ti chiedo gentilmente di inviarmi un messaggio WhatsApp prima di chiamare.</strong></p>
+              <a class="button button-secondary contact-method-action" href="https://wa.me/972544913379" target="_blank" rel="noopener noreferrer">Scrivimi su WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></a>
+            </div>
           </div>
         </div>
       </div>
