@@ -78,8 +78,28 @@ html[lang='it'] .section-title { font-family: var(--serif-font); font-weight: 60
 .button-light { background: var(--cream); color: var(--green-dark); }
 .button-light:hover { background: white; }
 
+/* Rome photograph: a background wash under the page and stronger in the hero.
+   Opaque/translucent cream layers retain text contrast in Italian and Hebrew. */
+main {
+  background: url('../assets/rome-colosseum-background.jpg') center top / cover fixed no-repeat;
+}
 /* Hero */
-.hero { position: relative; overflow: hidden; background: radial-gradient(circle at 15% 20%, rgb(222 215 198 / 45%), transparent 35%), var(--cream); }
+.hero {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--cream);
+  background-image:
+    linear-gradient(to right, rgb(244 239 230 / 98%) 0%, rgb(244 239 230 / 94%) 37%, rgb(244 239 230 / 74%) 72%, rgb(244 239 230 / 59%) 100%),
+    url('../assets/rome-colosseum-background.jpg');
+  background-size: cover;
+  background-position: center 43%;
+}
+/* In Hebrew the copy is on the right, so the stronger overlay follows it. */
+html[lang='he'] .hero {
+  background-image:
+    linear-gradient(to left, rgb(244 239 230 / 98%) 0%, rgb(244 239 230 / 94%) 37%, rgb(244 239 230 / 74%) 72%, rgb(244 239 230 / 59%) 100%),
+    url('../assets/rome-colosseum-background.jpg');
+}
 .hero::before { content: ''; position: absolute; inset-inline-end: -80px; inset-block-end: -210px; width: 450px; height: 450px; border: 1px solid rgb(35 63 54 / 10%); border-radius: 50%; pointer-events: none; }
 .hero-inner { min-height: 646px; display: grid; grid-template-columns: minmax(0, 1.11fr) minmax(0, .89fr); align-items: center; gap: min(7vw, 88px); padding-block: 70px 78px; }
 .hero-copy { position: relative; z-index: 2; }
@@ -117,7 +137,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .trust-copy span { color: #c0d0c5; font-size: 11px; }
 
 /* Programs */
-.lessons { background: var(--paper); }
+.lessons { background: rgb(251 249 244 / 97%); }
 .lesson-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 .lesson-card { position: relative; display: flex; flex-direction: column; align-items: flex-start; min-height: 300px; padding: 27px 23px 23px; border: 1px solid var(--line); border-radius: 12px; background: white; box-shadow: 0 6px 25px rgb(26 61 47 / 2%); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
 .lesson-card:hover { transform: translateY(-5px); border-color: #c6d4c7; box-shadow: var(--shadow); }
@@ -130,7 +150,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .lesson-link svg { width: 15px; height: 15px; }
 
 /* About */
-.about { background: var(--cream); position: relative; overflow: hidden; }
+.about { background: rgb(244 239 230 / 96%); position: relative; overflow: hidden; }
 .about-grid { display: grid; grid-template-columns: minmax(0, .77fr) minmax(0, 1.23fr); gap: clamp(44px, 8vw, 115px); align-items: center; }
 .about-media { position: relative; max-width: 440px; width: 100%; margin-inline: auto; }
 .portrait-frame { position: relative; padding: 14px; background: #d9dfd2; border-radius: 200px 200px 12px 12px; box-shadow: 17px 18px 0 rgb(35 63 54 / 8%); }
@@ -141,13 +161,15 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .about-copy .section-title { margin-bottom: 23px; }
 .about-copy p { max-width: 680px; margin: 0 0 16px; color: #5d6a60; font-size: 14px; line-height: 2.05; }
 .about-copy p strong { color: var(--green-dark); font-weight: 750; }
+.about-copy .conference-links a { color: var(--green-dark); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--terracotta); }
+.about-copy .conference-links a:hover { color: var(--terracotta-dark); }
 .credential-list { margin: 30px 0 30px; padding: 18px 0 0; border-top: 1px solid #d6d6ca; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 17px 24px; }
 .credential { display: flex; align-items: baseline; gap: 10px; }
 .credential .year { color: var(--terracotta-dark); font-size: 15px; font-weight: 800; white-space: nowrap; }
 .credential .credential-copy { color: #647268; font-size: 12px; line-height: 1.75; }
 
 /* Approach */
-.approach { background: var(--paper); }
+.approach { background: rgb(251 249 244 / 97%); }
 .approach-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 31px; }
 .approach-item { border-block-start: 1px solid #d9ddd4; padding-block-start: 23px; }
 .approach-num { display: block; margin-bottom: 18px; color: var(--terracotta); font-family: var(--serif-font); font-size: 31px; font-style: italic; line-height: 1; }
@@ -158,7 +180,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .italian-phrase .phrase-caption { color: #647b69; font-size: 12px; }
 
 /* FAQ */
-.faq { background: #f7f4ee; }
+.faq { background: rgb(247 244 238 / 97%); }
 .faq-grid { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr); gap: 70px; align-items: start; }
 .faq .section-title { font-size: clamp(29px, 3.15vw, 40px); }
 .faq-items { border-top: 1px solid #d9dad0; }
@@ -253,6 +275,13 @@ html[lang='it'] .lesson-card h3 { font-size: 17px; }
   .contact-grid { gap: 35px; }
 }
 @media (max-width: 680px) {
+  main { background-attachment: scroll; }
+  .hero, html[lang='he'] .hero {
+    background-image:
+      linear-gradient(to bottom, rgb(244 239 230 / 97%) 0%, rgb(244 239 230 / 95%) 40%, rgb(244 239 230 / 84%) 70%, rgb(244 239 230 / 78%) 100%),
+      url('../assets/rome-colosseum-background.jpg');
+    background-position: 43% center;
+  }
   html { scroll-padding-top: 80px; }
   .container { width: min(calc(100% - 34px), var(--container)); }
   .header-inner { min-height: 69px; gap: 10px; }
@@ -325,4 +354,12 @@ html[lang='it'] .lesson-card h3 { font-size: 17px; }
   .brand-name { font-size: 12px; }
   .language-switch { font-size: 10px; }
   .menu-toggle { width: 37px; height: 37px; flex-basis: 37px; }
+}
+
+/* Accessibility: in increased-contrast mode, keep all long-form text on solid colors. */
+@media (prefers-contrast: more) {
+  .hero, html[lang='he'] .hero { background: var(--cream); }
+  .lessons, .approach { background: var(--paper); }
+  .about { background: var(--cream); }
+  .faq { background: #f7f4ee; }
 }
