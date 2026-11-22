@@ -89,7 +89,7 @@ main {
   overflow: hidden;
   background-color: var(--cream);
   background-image:
-    linear-gradient(to right, rgb(244 239 230 / 98%) 0%, rgb(244 239 230 / 94%) 37%, rgb(244 239 230 / 74%) 72%, rgb(244 239 230 / 59%) 100%),
+    linear-gradient(to right, rgb(244 239 230 / 94%) 0%, rgb(244 239 230 / 85%) 37%, rgb(244 239 230 / 55%) 72%, rgb(244 239 230 / 25%) 100%),
     url('../assets/rome-colosseum-background.jpg');
   background-size: cover;
   background-position: center 43%;
@@ -97,7 +97,7 @@ main {
 /* In Hebrew the copy is on the right, so the stronger overlay follows it. */
 html[lang='he'] .hero {
   background-image:
-    linear-gradient(to left, rgb(244 239 230 / 98%) 0%, rgb(244 239 230 / 94%) 37%, rgb(244 239 230 / 74%) 72%, rgb(244 239 230 / 59%) 100%),
+    linear-gradient(to left, rgb(244 239 230 / 94%) 0%, rgb(244 239 230 / 85%) 37%, rgb(244 239 230 / 55%) 72%, rgb(244 239 230 / 25%) 100%),
     url('../assets/rome-colosseum-background.jpg');
 }
 .hero::before { content: ''; position: absolute; inset-inline-end: -80px; inset-block-end: -210px; width: 450px; height: 450px; border: 1px solid rgb(35 63 54 / 10%); border-radius: 50%; pointer-events: none; }
@@ -137,7 +137,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .trust-copy span { color: #c0d0c5; font-size: 11px; }
 
 /* Programs */
-.lessons { background: rgb(251 249 244 / 97%); }
+.lessons { background: rgb(251 249 244 / 92%); }
 .lesson-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 .lesson-card { position: relative; display: flex; flex-direction: column; align-items: flex-start; min-height: 300px; padding: 27px 23px 23px; border: 1px solid var(--line); border-radius: 12px; background: white; box-shadow: 0 6px 25px rgb(26 61 47 / 2%); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
 .lesson-card:hover { transform: translateY(-5px); border-color: #c6d4c7; box-shadow: var(--shadow); }
@@ -150,7 +150,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .lesson-link svg { width: 15px; height: 15px; }
 
 /* About */
-.about { background: rgb(244 239 230 / 96%); position: relative; overflow: hidden; }
+.about { background: rgb(244 239 230 / 90%); position: relative; overflow: hidden; }
 .about-grid { display: grid; grid-template-columns: minmax(0, .77fr) minmax(0, 1.23fr); gap: clamp(44px, 8vw, 115px); align-items: center; }
 .about-media { position: relative; max-width: 440px; width: 100%; margin-inline: auto; }
 .portrait-frame { position: relative; padding: 14px; background: #d9dfd2; border-radius: 200px 200px 12px 12px; box-shadow: 17px 18px 0 rgb(35 63 54 / 8%); }
@@ -169,7 +169,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .credential .credential-copy { color: #647268; font-size: 12px; line-height: 1.75; }
 
 /* Approach */
-.approach { background: rgb(251 249 244 / 97%); }
+.approach { background: rgb(251 249 244 / 92%); }
 .approach-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 31px; }
 .approach-item { border-block-start: 1px solid #d9ddd4; padding-block-start: 23px; }
 .approach-num { display: block; margin-bottom: 18px; color: var(--terracotta); font-family: var(--serif-font); font-size: 31px; font-style: italic; line-height: 1; }
@@ -180,7 +180,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .italian-phrase .phrase-caption { color: #647b69; font-size: 12px; }
 
 /* FAQ */
-.faq { background: rgb(247 244 238 / 97%); }
+.faq { background: rgb(247 244 238 / 92%); }
 .faq-grid { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr); gap: 70px; align-items: start; }
 .faq .section-title { font-size: clamp(29px, 3.15vw, 40px); }
 .faq-items { border-top: 1px solid #d9dad0; }
@@ -278,7 +278,7 @@ html[lang='it'] .lesson-card h3 { font-size: 17px; }
   main { background-attachment: scroll; }
   .hero, html[lang='he'] .hero {
     background-image:
-      linear-gradient(to bottom, rgb(244 239 230 / 97%) 0%, rgb(244 239 230 / 95%) 40%, rgb(244 239 230 / 84%) 70%, rgb(244 239 230 / 78%) 100%),
+      linear-gradient(to bottom, rgb(244 239 230 / 95%) 0%, rgb(244 239 230 / 89%) 40%, rgb(244 239 230 / 70%) 70%, rgb(244 239 230 / 50%) 100%),
       url('../assets/rome-colosseum-background.jpg');
     background-position: 43% center;
   }
