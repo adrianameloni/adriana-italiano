@@ -1,12 +1,8 @@
 # Biografia / ביוגרפיה — Adriana Meloni / אדריאנה מלוני
 
-Questi testi sono versioni biografiche complete, riscritte a partire dalle informazioni fornite. Per la pagina web sono state usate versioni più brevi e orientate a chi cerca lezioni di italiano.
-
----
-
 ## Italiano
 
-Ciao a tutti! Mi chiamo **Adriana Meloni** e insegno lingua e letteratura italiana da oltre quarant'anni, dai primi anni Ottanta, in tutto il mondo e in particolare in Israele. Accompagno studenti di diverse età e provenienze alla scoperta della lingua italiana, della sua cultura e della sua letteratura.
+Ciao a tutti! Mi chiamo **Adriana Meloni** e insegno lingua e letteratura italiana da oltre quarant'anni, in tutto il mondo e in particolare in Israele. Accompagno studenti di diverse età e provenienze alla scoperta della lingua italiana, della sua cultura e della sua letteratura.
 
 Nel 1985 mi sono laureata in Lettere moderne presso l'Université des Sciences Humaines di Strasburgo, in Francia, con una tesi dedicata al Rinascimento italiano e francese. La mia esperienza nell'insegnamento dell'italiano come lingua straniera è iniziata proprio in Francia, ancora prima della laurea.
 
@@ -24,7 +20,7 @@ Dal 2021, dopo aver concluso la mia attività presso l'Università Reichmann e l
 
 ## עברית
 
-שלום לכולם! שמי **אדריאנה מלוני**, ואני מלמדת שפה וספרות איטלקית כבר למעלה מארבעים שנה, מאז תחילת שנות השמונים, ברחבי העולם ובמיוחד בישראל. אני מלווה תלמידים בגילים שונים וברמות שונות בלימוד השפה האיטלקית, ובהיכרות עם התרבות והספרות העשירות שלה.
+שלום לכולם! שמי **אדריאנה מלוני**, ואני מלמדת שפה וספרות איטלקית כבר למעלה מארבעים שנה, ברחבי העולם ובמיוחד בישראל. אני מלווה תלמידים בגילים שונים וברמות שונות בלימוד השפה האיטלקית, ובהיכרות עם התרבות והספרות העשירות שלה.
 
 בשנת 1985 סיימתי תואר בספרות מודרנית באוניברסיטת שטרסבורג שבצרפת (Université des Sciences Humaines), עם עבודת גמר שעסקה ברנסאנס האיטלקי והצרפתי. את דרכי בהוראת איטלקית כשפה זרה התחלתי כבר במהלך לימודיי בצרפת, עוד לפני השלמת התואר.
 
