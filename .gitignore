@@ -1,0 +1,25 @@
+# macOS Finder and filesystem metadata
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# macOS volume and system files
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+.DocumentRevisions-V100/
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.apdisk
+
+# macOS network share metadata
+.AppleDB/
+.AppleDesktop/
+Network Trash Folder/
+Temporary Items/
+
+# Finder custom folder icon file
+Icon?
