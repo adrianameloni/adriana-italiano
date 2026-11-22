@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Illustration of a sunlit Italian town">
+  <defs>
+    <clipPath id="arch"><path d="M0 1000V400C0 179.1 179.1 0 400 0S800 179.1 800 400V1000Z"/></clipPath>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c7ab"/><stop offset=".55" stop-color="#f4d9b9"/><stop offset="1" stop-color="#edd9bb"/></linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ebcaa8"/><stop offset="1" stop-color="#d6af8a"/></linearGradient>
+  </defs>
+  <g clip-path="url(#arch)">
+    <rect width="800" height="1000" fill="url(#sky)"/>
+    <circle cx="552" cy="257" r="128" fill="#f4e7c7" opacity=".89"/>
+    <circle cx="552" cy="257" r="167" fill="none" stroke="#f4e7c7" opacity=".35" stroke-width="2"/>
+    <path d="M0 592Q140 524 271 583T550 587T800 563V1000H0Z" fill="#9fad8c"/>
+    <path d="M0 656Q120 583 271 650T565 628T800 627V1000H0Z" fill="#758b6b"/>
+    <path d="M0 729Q150 667 258 728T529 710T800 688V1000H0Z" fill="#536e58"/>
+    <path d="M268 706C283 766 287 837 200 1000H647C518 850 505 760 533 706Z" fill="url(#road)"/>
+    <path d="M348 703C350 781 357 873 320 1000" stroke="#bd9576" stroke-width="3" fill="none" opacity=".5"/>
+    <path d="M449 703C454 784 478 875 537 1000" stroke="#bd9576" stroke-width="3" fill="none" opacity=".5"/>
+    <!-- Left Italian facade -->
+    <path d="M-27 359L224 315L250 894L-27 909Z" fill="#e6b78f"/>
+    <path d="M-27 359L224 315L231 368L-27 404Z" fill="#c67e5b"/>
+    <path d="M215 320L296 378L318 849L250 894L224 315Z" fill="#b66e53"/>
+    <path d="M222 313L289 366L304 389L224 352Z" fill="#864e42"/>
+    <g fill="#36564e">
+      <path d="M61 456q0-47 37-47t37 47v83H61Z"/><path d="M61 651q0-47 37-47t37 47v88H61Z"/>
+      <path d="M165 445q0-40 28-40t28 40v82h-56Z"/><path d="M169 638q0-40 27-40t27 40v83h-54Z"/>
+    </g>
+    <g fill="#8d4c40"><rect x="51" y="523" width="93" height="13" rx="3"/><rect x="52" y="723" width="94" height="13" rx="3"/><rect x="161" y="521" width="70" height="12" rx="2"/></g>
+    <path d="M86 409V536M196 406V526M98 604V737" stroke="#d3b595" stroke-width="4" opacity=".6"/>
+    <path d="M-25 768Q85 744 222 766L223 898L-25 909Z" fill="#cc9574"/>
+    <path d="M38 906V815q0-58 65-58t65 58v91Z" fill="#324c44"/><path d="M43 906v-89q0-52 60-52t60 52v89" stroke="#c5906e" stroke-width="7" fill="none"/>
+    <!-- Right terracotta building -->
+    <path d="M576 406L806 361V978L581 921Z" fill="#d19271"/>
+    <path d="M545 402L807 338V391L558 450Z" fill="#b86b52"/>
+    <path d="M578 406L557 451L577 925L602 937Z" fill="#a96954"/>
+    <g fill="#325347">
+      <path d="M615 519q0-46 38-46t38 46v83h-76Z"/><path d="M711 500q0-43 31-43t31 43v92h-62Z"/>
+      <path d="M615 708q0-46 38-46t38 46v87h-76Z"/><path d="M712 696q0-43 31-43t31 43v93h-62Z"/>
+    </g>
+    <g stroke="#e8bd92" stroke-width="5"><path d="M652 475v120M742 458v133M653 662v127M743 653v136"/></g>
+    <g fill="#a05c4a"><rect x="604" y="591" width="99" height="11" rx="2"/><rect x="703" y="584" width="78" height="12" rx="2"/><rect x="604" y="786" width="99" height="12" rx="2"/></g>
+    <!-- Tuscan cypress trees and leaves -->
+    <path d="M265 732q-23-91 2-195q24 87-2 195Z" fill="#355b4e"/>
+    <path d="M557 737q-21-98 6-187q21 93-6 187Z" fill="#365a48"/>
+    <path d="M532 744q-14-66 4-131q16 70-4 131Z" fill="#496b4c"/>
+    <g opacity=".85" fill="#547756"><ellipse cx="300" cy="802" rx="13" ry="49" transform="rotate(27 300 802)"/><ellipse cx="287" cy="820" rx="13" ry="49" transform="rotate(-22 287 820)"/><ellipse cx="509" cy="823" rx="15" ry="46" transform="rotate(27 509 823)"/></g>
+    <!-- Potted plant foreground -->
+    <path d="M657 922h105l-21 78h-68Z" fill="#aa634f"/><path d="M653 916h117v14H653Z" fill="#864d40"/>
+    <g stroke="#426747" stroke-width="9" stroke-linecap="round"><path d="M717 923q-10-75-56-116"/><path d="M709 913q32-91 65-112"/><path d="M718 901q-12-116 1-139"/></g>
+    <g fill="#537956"><ellipse cx="659" cy="805" rx="17" ry="34" transform="rotate(-32 659 805)"/><ellipse cx="776" cy="801" rx="17" ry="32" transform="rotate(34 776 801)"/><ellipse cx="715" cy="766" rx="13" ry="29"/><ellipse cx="680" cy="853" rx="18" ry="34" transform="rotate(-44 680 853)"/><ellipse cx="755" cy="853" rx="18" ry="30" transform="rotate(45 755 853)"/></g>
+    <g fill="#f8dfbb" opacity=".6"><circle cx="352" cy="610" r="4"/><circle cx="372" cy="629" r="3"/><circle cx="413" cy="571" r="4"/><circle cx="447" cy="619" r="3"/></g>
+  </g>
+</svg>
