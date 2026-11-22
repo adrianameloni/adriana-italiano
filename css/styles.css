@@ -96,7 +96,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .hero-visual { min-width: 0; position: relative; max-width: 460px; width: 100%; margin-inline: auto; }
 .art-card { position: relative; aspect-ratio: 0.83; padding: 18px; background: #e9ddcd; border: 1px solid #e0d6c7; border-radius: 220px 220px 15px 15px; box-shadow: 22px 22px 0 rgb(51 89 70 / 7%), var(--shadow); }
 .art-card::after { content: ''; position: absolute; inset: 12px; border: 1px solid rgb(255 255 255 / 56%); border-radius: 210px 210px 8px 8px; pointer-events: none; }
-.art-card img { width: 100%; height: 100%; object-fit: cover; object-position: center 30%; border-radius: 200px 200px 8px 8px; }
+.art-card img { width: 100%; height: 100%; object-fit: cover; object-position: center 7%; border-radius: 200px 200px 8px 8px; }
 .art-stamp { position: absolute; z-index: 2; inset-inline-start: -44px; inset-block-start: 12%; width: 109px; height: 109px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--green); border: 5px solid var(--cream); border-radius: 50%; color: var(--cream); text-align: center; box-shadow: 0 12px 20px rgb(25 47 37 / 15%); transform: rotate(-11deg); }
 .art-stamp .small-star { font-size: 20px; line-height: 1; color: #dca88c; }
 .art-stamp .stamp-word { font-family: var(--serif-font); font-size: 20px; line-height: 1.2; font-style: italic; }
@@ -134,7 +134,7 @@ html[lang='it'] .hero h1 em { font-size: .86em; }
 .about-grid { display: grid; grid-template-columns: minmax(0, .77fr) minmax(0, 1.23fr); gap: clamp(44px, 8vw, 115px); align-items: center; }
 .about-media { position: relative; max-width: 440px; width: 100%; margin-inline: auto; }
 .portrait-frame { position: relative; padding: 14px; background: #d9dfd2; border-radius: 200px 200px 12px 12px; box-shadow: 17px 18px 0 rgb(35 63 54 / 8%); }
-.portrait-frame > img { width: 100%; height: auto; aspect-ratio: .83; object-fit: cover; object-position: center 26%; border-radius: 190px 190px 6px 6px; background: #d4ded2; }
+.portrait-frame > img { width: 100%; height: auto; aspect-ratio: .83; object-fit: cover; object-position: center 55%; border-radius: 190px 190px 6px 6px; background: #d4ded2; }
 .portrait-label { position: absolute; inset-inline-end: -25px; inset-block-end: 41px; background: var(--paper); padding: 14px 17px; border-radius: 7px; box-shadow: 0 12px 28px rgb(25 47 37 / 9%); }
 .portrait-label strong { display: block; font-size: 15px; color: var(--green-dark); }
 .portrait-label span { display: block; font-size: 11px; color: var(--muted); }
