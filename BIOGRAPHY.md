@@ -1,8 +1,12 @@
-# Biografia / ביוגרפיה — Adriana Meloni / אדריאנה מלוני
+# Biography / Biografia / ביוגרפיה — Adriana Meloni / אדריאנה מלוני
+
+Full biographical versions in English, Italian and Hebrew, based on the information provided. The website uses shorter versions aimed at people looking for Italian lessons.
+
+---
 
 ## Italiano
 
-Ciao a tutti! Mi chiamo **Adriana Meloni** e insegno lingua e letteratura italiana da oltre quarant'anni, in tutto il mondo e in particolare in Israele. Accompagno studenti di diverse età e provenienze alla scoperta della lingua italiana, della sua cultura e della sua letteratura.
+Ciao a tutti! Mi chiamo **Adriana Meloni** e insegno lingua e letteratura italiana da oltre quarant'anni, dai primi anni Ottanta, in tutto il mondo e in particolare in Israele. Accompagno studenti di diverse età e provenienze alla scoperta della lingua italiana, della sua cultura e della sua letteratura.
 
 Nel 1985 mi sono laureata in Lettere moderne presso l'Université des Sciences Humaines di Strasburgo, in Francia, con una tesi dedicata al Rinascimento italiano e francese. La mia esperienza nell'insegnamento dell'italiano come lingua straniera è iniziata proprio in Francia, ancora prima della laurea.
 
@@ -20,7 +24,7 @@ Dal 2021, dopo aver concluso la mia attività presso l'Università Reichmann e l
 
 ## עברית
 
-שלום לכולם! שמי **אדריאנה מלוני**, ואני מלמדת שפה וספרות איטלקית כבר למעלה מארבעים שנה, ברחבי העולם ובמיוחד בישראל. אני מלווה תלמידים בגילים שונים וברמות שונות בלימוד השפה האיטלקית, ובהיכרות עם התרבות והספרות העשירות שלה.
+שלום לכולם! שמי **אדריאנה מלוני**, ואני מלמדת שפה וספרות איטלקית כבר למעלה מארבעים שנה, מאז תחילת שנות השמונים, ברחבי העולם ובמיוחד בישראל. אני מלווה תלמידים בגילים שונים וברמות שונות בלימוד השפה האיטלקית, ובהיכרות עם התרבות והספרות העשירות שלה.
 
 בשנת 1985 סיימתי תואר בספרות מודרנית באוניברסיטת שטרסבורג שבצרפת (Université des Sciences Humaines), עם עבודת גמר שעסקה ברנסאנס האיטלקי והצרפתי. את דרכי בהוראת איטלקית כשפה זרה התחלתי כבר במהלך לימודיי בצרפת, עוד לפני השלמת התואר.
 
@@ -33,3 +37,22 @@ Dal 2021, dopo aver concluso la mia attività presso l'Università Reichmann e l
 מאז שנת 2021, לאחר שסיימתי את עבודתי באוניברסיטת רייכמן ובמכון האיטלקי לתרבות, אני מתמקדת בהוראה פרטית. אני מציעה שיעורי איטלקית מותאמים אישית לכל הרמות — ממתחילים ללא כל ידע קודם ועד מתקדמים — למי שרוצים ללמוד להנאתם, לצורך לימודים או עבודה, לקראת נסיעה, וכן לתלמידים המתכוננים לבגרות באיטלקית או למבחן B1 לצורכי אזרחות איטלקית.
 
 **המטרה שלי היא להפוך את לימוד האיטלקית לחוויה אישית, מעשירה ומהנה, המותאמת לצרכים של כל תלמיד ותלמידה.**
+
+
+---
+
+## English
+
+Hello everyone! My name is **Adriana Meloni**, and I have taught Italian language and literature for over forty years, since the early 1980s, around the world and especially in Israel. I help learners of different ages and backgrounds discover Italian, its culture and its literature.
+
+In 1985, I graduated in Modern Literature from the Université des Sciences Humaines in Strasbourg, France, with a thesis on the Italian and French Renaissance. I began teaching Italian as a foreign language in France, even before completing my degree.
+
+In 2000, I moved to Israel, where I taught Italian at the Open University for five years. From 2003 to 2021, I taught Italian language and literature at the Italian Cultural Institute in Tel Aviv, where I also gave lectures on literature. From 2011 to 2021, I also taught Italian language and literature at the institution now known as Reichman University in Herzliya. Titles of my lectures can be found on the websites of the [Embassy of Italy in Tel Aviv](https://ambtelaviv.esteri.it/it/) and the [Italian Cultural Institute in Tel Aviv](https://iictelaviv.esteri.it/it/).
+
+Since 2012, I have prepared students for the Israeli Italian matriculation exam (Bagrut). That year, I also taught Italian to final-year students at Ironi Alef High School in Tel Aviv, supporting their exam preparation.
+
+I have continued to develop my teaching expertise. In 2013, I completed a master's program in the teaching methodology of Italian as a second language (L2) at the University for Foreigners of Perugia. In 2020, I undertook training at the University of Siena in teaching Italian and preparing students for the B1 Italian language exam required as part of the Italian citizenship application process.
+
+Since 2021, after finishing my work at Reichman University and the Italian Cultural Institute, I have focused on private teaching. I offer personalized Italian lessons for all levels, from absolute beginners to advanced students, whether you are learning for pleasure, travel, study, work, the Bagrut exam or the B1 exam for Italian citizenship.
+
+**My goal is to make learning Italian an enjoyable, enriching experience tailored to each student's needs.**
