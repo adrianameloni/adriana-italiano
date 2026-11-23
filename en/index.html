@@ -14,8 +14,8 @@
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="../css/styles.css?v=20261123-typography-biography">
-  <script src="../js/main.js" defer></script>
+  <link rel="stylesheet" href="../css/styles.css?v=20261123-accessibility-2">
+  <script src="../js/main.js?v=20261123-accessibility-2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -162,10 +162,10 @@
           <p class="section-desc">Here are a few answers about the lessons. You can always get in touch and tell me what you would like to learn.</p>
         </div>
         <div class="faq-items">
-          <details><summary>Can I start with no previous knowledge?</summary><p>Absolutely. Lessons are available at every level, including complete beginners who have never studied Italian.</p></details>
-          <details><summary>Do you prepare students for the Italian Bagrut?</summary><p>Yes. I've prepared students for the Israeli Italian Bagrut since 2012, including through my teaching experience at Ironi Alef High School in Tel Aviv.</p></details>
-          <details><summary>Do you offer preparation for the citizenship B1 exam?</summary><p>Yes. I provide focused language preparation for the B1 level required during the Italian citizenship process.</p></details>
-          <details><summary>How do I get started, and how do lessons work?</summary><p>Contact me and tell me a little about your level and goals. We can discuss the details and arrange a suitable lesson format together.</p></details>
+          <details><summary><span class="faq-question">Can I start with no previous knowledge?</span></summary><p>Absolutely. Lessons are available at every level, including complete beginners who have never studied Italian.</p></details>
+          <details><summary><span class="faq-question">Do you prepare students for the Italian Bagrut?</span></summary><p>Yes. I've prepared students for the Israeli Italian Bagrut since 2012, including through my teaching experience at Ironi Alef High School in Tel Aviv.</p></details>
+          <details><summary><span class="faq-question">Do you offer preparation for the citizenship B1 exam?</span></summary><p>Yes. I provide focused language preparation for the B1 level required during the Italian citizenship process.</p></details>
+          <details><summary><span class="faq-question">How do I get started, and how do lessons work?</span></summary><p>Contact me and tell me a little about your level and goals. We can discuss the details and arrange a suitable lesson format together.</p></details>
         </div>
       </div>
     </section>
@@ -216,5 +216,10 @@
     </div>
     <div class="footer-bottom">© <span data-year>2026</span> Adriana Meloni · All rights reserved</div>
   </footer>
+  <div class="font-controls" role="group" aria-label="Text size">
+    <button type="button" data-font-decrease aria-label="Decrease text size" title="Decrease text size">A−</button>
+    <output class="font-indicator" data-font-indicator aria-live="polite">110%</output>
+    <button type="button" data-font-increase aria-label="Increase text size" title="Increase text size">A+</button>
+  </div>
 </body>
 </html>

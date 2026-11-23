@@ -14,8 +14,8 @@
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="css/styles.css?v=20261123-typography-biography">
-  <script src="js/main.js" defer></script>
+  <link rel="stylesheet" href="css/styles.css?v=20261123-accessibility-2">
+  <script src="js/main.js?v=20261123-accessibility-2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
@@ -162,10 +162,10 @@
           <p class="section-desc">כאן תמצאו תשובות קצרות על הלימודים. אפשר גם ליצור קשר ולספר לי מה אתם מחפשים.</p>
         </div>
         <div class="faq-items">
-          <details><summary>אפשר להתחיל ללמוד גם בלי ידע מוקדם?</summary><p>בהחלט. אני מלמדת איטלקית בכל הרמות, כולל מתחילים ללא רקע קודם.</p></details>
-          <details><summary>האם את מכינה לבגרות באיטלקית?</summary><p>כן. אני עוסקת בהכנת תלמידים לבחינת הבגרות באיטלקית מאז 2012, כולל ניסיון בהוראה בתיכון עירוני א׳ בתל אביב.</p></details>
-          <details><summary>אפשר ללמוד לקראת מבחן <bdi>B1</bdi> לאזרחות איטלקית?</summary><p>כן. אני מציעה הכנה ייעודית לשפה האיטלקית ברמת B1 הנדרשת בהליך בקשת האזרחות, בהתאם לצרכים של התלמיד או התלמידה.</p></details>
-          <details><summary>איך מתחילים ומהי מתכונת השיעורים?</summary><p>פונים אליי, מספרים בקצרה על הרמה ועל המטרה, ובשיחה נתאם את פרטי הלימוד ואת המתכונת המתאימה.</p></details>
+          <details><summary><span class="faq-question">אפשר להתחיל ללמוד גם בלי ידע מוקדם?</span></summary><p>בהחלט. אני מלמדת איטלקית בכל הרמות, כולל מתחילים ללא רקע קודם.</p></details>
+          <details><summary><span class="faq-question">האם את מכינה לבגרות באיטלקית?</span></summary><p>כן. אני עוסקת בהכנת תלמידים לבחינת הבגרות באיטלקית מאז 2012, כולל ניסיון בהוראה בתיכון עירוני א׳ בתל אביב.</p></details>
+          <details><summary><span class="faq-question">אפשר ללמוד לקראת מבחן <bdi>B1</bdi> לאזרחות איטלקית?</span></summary><p>כן. אני מציעה הכנה ייעודית לשפה האיטלקית ברמת B1 הנדרשת בהליך בקשת האזרחות, בהתאם לצרכים של התלמיד או התלמידה.</p></details>
+          <details><summary><span class="faq-question">איך מתחילים ומהי מתכונת השיעורים?</span></summary><p>פונים אליי, מספרים בקצרה על הרמה ועל המטרה, ובשיחה נתאם את פרטי הלימוד ואת המתכונת המתאימה.</p></details>
         </div>
       </div>
     </section>
@@ -216,5 +216,10 @@
     </div>
     <div class="footer-bottom">© <span data-year>2026</span> אדריאנה מלוני · כל הזכויות שמורות</div>
   </footer>
+  <div class="font-controls" role="group" aria-label="גודל הגופן">
+    <button type="button" data-font-decrease aria-label="הקטנת גודל הגופן" title="הקטנת גודל הגופן">A−</button>
+    <output class="font-indicator" data-font-indicator aria-live="polite">110%</output>
+    <button type="button" data-font-increase aria-label="הגדלת גודל הגופן" title="הגדלת גודל הגופן">A+</button>
+  </div>
 </body>
 </html>

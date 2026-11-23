@@ -14,8 +14,8 @@
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="../css/styles.css?v=20261123-typography-biography">
-  <script src="../js/main.js" defer></script>
+  <link rel="stylesheet" href="../css/styles.css?v=20261123-accessibility-2">
+  <script src="../js/main.js?v=20261123-accessibility-2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Vai al contenuto principale</a>
@@ -162,10 +162,10 @@
           <p class="section-desc">Alcune risposte utili sulle lezioni. Puoi anche scrivermi per raccontarmi che cosa vorresti imparare.</p>
         </div>
         <div class="faq-items">
-          <details><summary>Posso iniziare anche da zero?</summary><p>Certamente. Le lezioni sono rivolte a tutti i livelli, anche a chi non ha mai studiato italiano.</p></details>
-          <details><summary>Prepari all'esame di maturità in italiano?</summary><p>Sì. Dal 2012 preparo studenti alla maturità israeliana in italiano (Bagrut), anche grazie all'esperienza di insegnamento al liceo Ironi Alef di Tel Aviv.</p></details>
-          <details><summary>Offri preparazione per l'esame B1 di cittadinanza?</summary><p>Sì. Propongo una preparazione linguistica mirata al livello B1 richiesto nella procedura per la cittadinanza italiana.</p></details>
-          <details><summary>Come si comincia e come si svolgono le lezioni?</summary><p>Contattami e raccontami il tuo livello e i tuoi obiettivi. Potremo concordare insieme i dettagli e la modalità delle lezioni.</p></details>
+          <details><summary><span class="faq-question">Posso iniziare anche da zero?</span></summary><p>Certamente. Le lezioni sono rivolte a tutti i livelli, anche a chi non ha mai studiato italiano.</p></details>
+          <details><summary><span class="faq-question">Prepari all'esame di maturità in italiano?</span></summary><p>Sì. Dal 2012 preparo studenti alla maturità israeliana in italiano (Bagrut), anche grazie all'esperienza di insegnamento al liceo Ironi Alef di Tel Aviv.</p></details>
+          <details><summary><span class="faq-question">Offri preparazione per l'esame B1 di cittadinanza?</span></summary><p>Sì. Propongo una preparazione linguistica mirata al livello B1 richiesto nella procedura per la cittadinanza italiana.</p></details>
+          <details><summary><span class="faq-question">Come si comincia e come si svolgono le lezioni?</span></summary><p>Contattami e raccontami il tuo livello e i tuoi obiettivi. Potremo concordare insieme i dettagli e la modalità delle lezioni.</p></details>
         </div>
       </div>
     </section>
@@ -216,5 +216,10 @@
     </div>
     <div class="footer-bottom">© <span data-year>2026</span> Adriana Meloni · Tutti i diritti riservati</div>
   </footer>
+  <div class="font-controls" role="group" aria-label="Dimensione testo">
+    <button type="button" data-font-decrease aria-label="Riduci il testo" title="Riduci il testo">A−</button>
+    <output class="font-indicator" data-font-indicator aria-live="polite">110%</output>
+    <button type="button" data-font-increase aria-label="Ingrandisci il testo" title="Ingrandisci il testo">A+</button>
+  </div>
 </body>
 </html>
